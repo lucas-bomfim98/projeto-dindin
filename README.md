@@ -156,3 +156,4 @@ Neste endpoint não há conteúdo no body da requisição, apenas a autorizaçã
 ### Filtrar transações por categoria
 #### `GET` `/transacao?filtro[]`
 Neste endpoint não há conteúdo no body da requisição, apenas a autorização com Bearer Token como header, fazendo com que seja necessário estar logado para visualizar o conteúdo. O filtro deverá ser um array com uma ou mais categorias, sendo um query param opcional para a rota `GET /transacao`.
+![Alt text](image-16.png)
